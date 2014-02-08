@@ -1,0 +1,176 @@
+body { margin:0; padding:0; }
+#map { position: absolute; top:45px; bottom:0; width:100%; background-color: #fff; z-index: 999; }
+
+body {
+    font-family: 'Helvetica';
+}
+
+body, html {
+    height: 100%;
+}
+
+.infobar {
+    float: right;
+    position: relative;
+    width: 450px;
+    height: 100%;
+    background-color: rgba(0,0,0,0.5);
+    z-index: 99999;
+    -moz-box-shadow: 0 0 5px 15px rgba(110,110,110,0.5);
+    -webkit-box-shadow:  0 0 5px 5px rgba(110,110,110,0.5);
+}
+
+.chart h1 {
+    font-size: 16px;
+    margin-bottom: 12px;
+    text-align: center;
+}
+
+#va_chart {
+    position: relative;
+    text-align: center;
+}
+
+.map-tooltip {
+    background-color: rgba(255,255,255,0.9);
+    min-height: 500px;
+    width: 100px;
+    line-height: 10px;
+    padding-top: 0px;
+}
+
+.my-legend {
+    float: left;
+    position: absolute;
+    bottom: 10px;
+    height: 350px;
+    width: 220px;
+    left: 10px;
+    background-color: rgba(255,255,255,0.8);
+    border-radius: 3px;
+    padding: 10px;
+    z-index: 99999;
+  }
+  .my-legend .legend-title {
+    text-align: left;
+    margin-bottom: 5px;
+    font-weight: bold;
+    font-size: 90%;
+    }
+  .my-legend .legend-scale ul {
+    margin: 0;
+    margin-bottom: 5px;
+    padding: 0;
+    float: left;
+    list-style: none;
+    }
+  .my-legend .legend-scale ul li {
+    font-size: 80%;
+    list-style: none;
+    margin-left: 0;
+    line-height: 18px;
+    margin-bottom: 2px;
+    }
+  .my-legend ul.legend-labels li span {
+    display: block;
+    float: left;
+    height: 16px;
+    width: 25px;
+    margin-right: 5px;
+    margin-left: 0;
+    border: solid 1px #000;
+    }
+
+  .my-legend .legend-source {
+    font-size: 70%;
+    color: #666;
+    clear: both;
+    }
+  .my-legend .info {
+    font-size: 11px;
+    color: #333;
+    clear: both;
+    margin-bottom: 5px;
+    }
+  .my-legend a {
+    color: #777;
+    }
+  img {
+    color: #333;
+    }
+
+#navigation {
+    height: 30px;
+    padding: 10px 10px 5px 10px;
+    position: relative;
+    background-color: #333;
+    z-index: 1000;
+}
+
+#navigation .right {
+    float:right;
+    margin-right: 5px;
+}
+
+#navigation span {
+    font-family: 'Signika Negative', sans-serif;
+    color: #fff;
+    font-size: 24px;
+    font-variant: bold;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+
+#navigation span strong {
+    color: #999;
+}
+
+.donationpop {
+    background-color: rgba(0,0,0,0.9);
+    height:40%;
+    width:100%;
+    bottom:30%;
+    z-index: 100000000;
+    position: absolute;
+    box-shadow: 0px 10px 5px rgba(0,0,0,0.75);
+    display: none;
+}
+
+.donationpop h1 {
+    color: #69D2E7;
+    text-align: center;
+}
+
+.donationpop h2 {
+    color: #CFF09E;
+    text-align: center;
+    font-size: 18px;
+    margin-bottom: 18px;
+}
+
+.donationpop p {
+    text-align: center;
+    color: #fff;
+    font-size: 14px;
+}
+
+.donationpop a {
+    text-align: center;
+    color: #00DFFC;
+    font-size: 24px;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.donationpop .fine {
+    text-align: center;
+    color: #999;
+    font-size: 9px;
+}
+
+.donationpop .nothanks a {
+    text-align: center;
+    color: #fff;
+    font-size: 12px;
+    text-decoration: underline;
+}
